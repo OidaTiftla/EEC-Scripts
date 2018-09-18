@@ -39,6 +39,8 @@ Copy those files you like to use in your own git repository and use it.
 
 If you see possible improvements in the scripts or ave new scripts which would be helpful for other too, you are very welcome to create a pull request on GitHub.
 
+Here is a [guide to contribute](https://guides.github.com/activities/forking/).
+
 
 ## License
 
