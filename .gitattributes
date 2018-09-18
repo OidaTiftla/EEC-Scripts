@@ -1,0 +1,16 @@
+# model-files can only be merged in EEC
+*.eox -merge
+
+# macro-files can only be merged in P8
+*.ema -merge
+
+# convert to txt
+*.zip filter=zippey
+*.eox filter=zippey
+*.docx filter=zippey
+*.xlsx filter=zippey
+*.pptx filter=zippey
+
+*.ema diff=emadiff
+
+*.pdf diff=pdfdiff

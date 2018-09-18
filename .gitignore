@@ -1,0 +1,25 @@
+# ignore this folder
+conf64/*
+configuration/*
+db/*
+documentation/*
+dropins/*
+features/*
+install/*
+jre/*
+jre64/*
+p2/*
+plugins/*
+workspace/*
+
+# ignore EEC files
+/.eclipseproduct
+/0A000006.lic
+/artifacts.xml
+/ec.exe
+/ec64.exe
+/ec_admin.exe
+/ec_admin64.exe
+/unins000.dat
+/unins000.exe
+/eoxprojects/
