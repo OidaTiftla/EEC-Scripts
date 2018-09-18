@@ -1,6 +1,7 @@
 # EEC-Scripts
 
 Scripts for EEC (EPLAN Engineering Configuration) to work with git seamlessly
+This Repository should help all guys how start with git and need some helpful scripts to work with EEC and git in combination.
 
 First presented on EEC-Forum 2018 by SPANGLER GMBH.
 
@@ -9,17 +10,14 @@ The intension is also to collect useful scripts to be used with git and EEC.
 For example visualize differences/changes in *.ema makros or handle merging of *.eox files.
 
 
-## This repository is under construction
-
-Explanation for each file will follow.
-
-
 ## Getting Started
 
 Copy those files you like to use in your own git repository and use it.
 If you see possible improvements in the scripts, you are very welcome to create a pull request on GitHub.
 
 The installation scripts (if necessary) are in the corresponding section.
+
+Please use the [wiki](https://github.com/OidaTiftla/EEC-Scripts/wiki) for the explanation of the individual files.
 
 
 ### Prerequisites
