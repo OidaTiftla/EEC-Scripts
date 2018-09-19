@@ -77,14 +77,14 @@ git commit
 
 Relevant files:
 
-- `config.sh`
+- `config-zippey.sh`
 - `.gitattributes`
 - `zippey.exe` and `zippey.py`
-- `convert.sh`
+- `convert-zippey.sh`
 
-The `config.sh` file sets up the smudge and clean filters.
+The `config-zippey.sh` file sets up the smudge and clean filters.
 
-With `convert.sh` you are able to rewrite your whole git history to use the new smudge and clean filters.
+With `convert-zippey.sh` you are able to rewrite your whole git history to use the new smudge and clean filters.
 **But be careful!!!**
 It's recommended to make a backup of your repository before using this script, so you can go back if it's failing.
 The script was only tested on a single repository.
@@ -97,10 +97,10 @@ It is also recommended, to make yourself familiar with rewriting history in git 
 Relevant files:
 
 - `ema-textconv.sh`
-- `config.sh`
+- `config-ema.sh`
 - `.gitattributes`
 
-The `config.sh` file sets up the diff command.
+The `config-ema.sh` file sets up the diff command.
 
 You can use it by typing:
 
@@ -116,11 +116,11 @@ This script is at a very very beginning stage and if you have ideas to improve t
 Relevant files:
 
 - `pdf-difftool.sh`
-- `config.sh`
+- `config-pdf.sh`
 - `.gitattributes`
 - `tests/diff-pdf/*`
 
-The `config.sh` file sets up the diff command.
+The `config-pdf.sh` file sets up the diff command.
 
 ```
 git diff some-file.pdf

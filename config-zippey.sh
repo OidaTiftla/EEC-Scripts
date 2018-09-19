@@ -1,17 +1,5 @@
 #!/bin/bash
 
-echo "Setup pdf diff tool"
-git_dir=$(git rev-parse --show-toplevel)
-git config diff.pdfdiff.command "${git_dir}/pdf-difftool.sh"
-
-echo ""
-echo ""
-echo "Setup ema textconv"
-git_dir=$(git rev-parse --show-toplevel)
-git config diff.emadiff.textconv "${git_dir}/ema-textconv.sh"
-
-echo ""
-echo ""
 echo "Setup zippey"
 cp "${git_dir}/zippey.exe" "/c/zippey.exe"
 git config filter.zippey.smudge "/c/zippey.exe d"
