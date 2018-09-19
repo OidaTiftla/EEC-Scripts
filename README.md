@@ -1,7 +1,7 @@
 # EEC-Scripts
 
-Scripts for EEC (EPLAN Engineering Configuration) to work with git seamlessly
-This Repository should help all guys how start with git and need some helpful scripts to work with EEC and git in combination.
+Scripts for EEC (EPLAN Engineering Configuration) to work with git seamlessly.
+This Repository should help all guys who start with git and need some helpful scripts to work with EEC and git in combination.
 
 First presented on EEC-Forum 2018 by SPANGLER GMBH.
 
