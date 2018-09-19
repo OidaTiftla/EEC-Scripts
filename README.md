@@ -171,3 +171,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 * Thank you to Peng Xu and his basis work for the [zippey](https://bitbucket.org/sippey/zippey/src/master/) projekt.
+* Also thank you to vslavik and his work for the [diff-pdf](https://vslavik.github.io/diff-pdf/) projekt.
