@@ -17,7 +17,20 @@ For example, visualize differences/changes in *.ema macros or handle merging of 
 Copy those files you like to use in your own git repository and use it.
 If you see possible improvements in the scripts, you are very welcome to create a pull request on GitHub.
 
-The installation scripts (if necessary) are in the corresponding section.
+The installation/configuration scripts (if necessary) are in the corresponding section.
+
+
+### Prerequisites
+
+There is no direct software you need to install to use this scripts, but this repository uses some software in its scripts.
+
+- [zippey](https://bitbucket.org/OidaTiftla/zippey/src/master/)
+- [diff-pdf](https://vslavik.github.io/diff-pdf/)
+
+
+### Installing
+
+Copy those files you like to use in your own git repository and use it.
 
 
 ## This repository is under construction
@@ -168,19 +181,6 @@ Relevant files:
 
 
 This folder contains some example templates you can use in GitLab to create milestones and issues.
-
-
-### Prerequisites
-
-There is no direct software you need to install to use this scripts, but this repository uses some software in its scripts.
-
-- [zippey](https://bitbucket.org/OidaTiftla/zippey/src/master/)
-- [diff-pdf](https://vslavik.github.io/diff-pdf/)
-
-
-### Installing
-
-Copy those files you like to use in your own git repository and use it.
 
 
 ## Contributing
