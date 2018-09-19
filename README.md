@@ -8,8 +8,8 @@ First presented on EEC-Forum 2018 by SPANGLER GMBH.
 *We as company SPANGLER GMBH would like to enhance the thought of an open and sharing experience on the EEC-Forum. Therefore we publish some code supporting our presentation on the EEC-Forum 2018. And thereby we hope others can benefit from this, and we hope we can improve the networking on the EEC-Forum.*
 
 This repository gives some starting code to use git with EEC.
-The intension is also to collect useful scripts to be used with git and EEC.
-For example visualize differences/changes in *.ema makros or handle merging of *.eox files.
+The intention is also to collect useful scripts to be used with git and EEC.
+For example, visualize differences/changes in *.ema macros or handle merging of *.eox files.
 
 
 ## Getting Started
@@ -22,7 +22,7 @@ The installation scripts (if necessary) are in the corresponding section.
 
 ## This repository is under construction
 
-Explanation for each file will follow.
+An explanation for each file will follow.
 
 
 ## EOX file merging conflicts
@@ -37,7 +37,7 @@ Relevant files:
 ### Prerequisites
 
 The `*.eox` file needs to be located in `./eox/model.eox` so the script works correctly.
-If you have it somewhere else, you have to adjust the scripts by your own.
+If you have it somewhere else, you have to adjust the scripts on your own.
 
 
 ### Steps
@@ -49,7 +49,7 @@ git merge feature/other-branch
 ```
 
 If two people changed the same `*.eox` file, the merge will fail.
-Next you execute the following script, to prepare the files, so you can merge them in the EEC program.
+Next, you execute the following script, to prepare the files, so you can merge them in the EEC program.
 
 ```
 ./merge-model.sh
@@ -147,7 +147,7 @@ This folder contains some example templates you can use in GitLab to create mile
 
 ### Prerequisites
 
-There are not direct software you need to install to use this scripts, but this repository uses software in its scripts.
+There is no direct software you need to install to use this scripts, but this repository uses some software in its scripts.
 
 - [zippey](https://bitbucket.org/OidaTiftla/zippey/src/master/)
 - [diff-pdf](https://vslavik.github.io/diff-pdf/)
@@ -160,7 +160,7 @@ Copy those files you like to use in your own git repository and use it.
 
 ## Contributing
 
-If you see possible improvements in the scripts or ave new scripts which would be helpful for other too, you are very welcome to create a pull request on GitHub.
+If you see possible improvements in the scripts or you have new scripts which would be helpful for others too, you are very welcome to create a pull request on GitHub.
 
 Here is a [guide to contribute](https://guides.github.com/activities/forking/).
 
@@ -172,5 +172,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-* Thank you to Peng Xu and his basis work for the [zippey](https://bitbucket.org/sippey/zippey/src/master/) projekt.
-* Also thank you to vslavik and his work for the [diff-pdf](https://vslavik.github.io/diff-pdf/) projekt.
+* Thank you to Peng Xu and his basis work for the [zippey](https://bitbucket.org/sippey/zippey/src/master/) project.
+* Also thank you to vslavik and his work for the [diff-pdf](https://vslavik.github.io/diff-pdf/) project.
