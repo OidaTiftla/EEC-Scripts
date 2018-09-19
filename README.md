@@ -17,7 +17,130 @@ If you see possible improvements in the scripts, you are very welcome to create 
 
 The installation scripts (if necessary) are in the corresponding section.
 
-Please use the [wiki](https://github.com/OidaTiftla/EEC-Scripts/wiki) for the explanation of the individual files.
+
+## This repository is under construction
+
+Explanation for each file will follow.
+
+
+## EOX file merging conflicts
+
+Relevant files:
+
+- `merge-model.sh`
+- `stage-merge-model.sh`
+- `.gitattributes`
+
+
+### Prerequisites
+
+The `*.eox` file needs to be located in `./eox/model.eox` so the script works correctly.
+If you have it somewhere else, you have to adjust the scripts by your own.
+
+
+### Steps
+
+You can use it by doing a merge between two branches:
+
+```
+git merge feature/other-branch
+```
+
+If two people changed the same `*.eox` file, the merge will fail.
+Next you execute the following script, to prepare the files, so you can merge them in the EEC program.
+
+```
+./merge-model.sh
+```
+
+Then you go to the EEC, reload (close and reopen) the `*.eox` file and do a 3-way-merge.
+The instructions are printed to the console by the previous script.
+
+After merging the `*.eox` file in the EEC program, you execute the next script to stage all changes.
+
+```
+./stage-merge-model.sh
+```
+
+Now the `*.eox` file is added to the git staging area and you can finish the merge by:
+
+```
+git commit
+```
+
+
+## EOX file (also *.zip, *.docx, *.xlsx, *.pptx)
+
+*Please only use it if you fully understand the impact ;-)*
+
+Relevant files:
+
+- `config.sh`
+- `.gitattributes`
+- `zippey.exe` and `zippey.py`
+- `convert.sh`
+
+The `config.sh` file sets up the smudge and clean filters.
+
+With `convert.sh` you are able to rewrite your whole git history to use the new smudge and clean filters.
+**But be careful!!!**
+It's recommended to make a backup of your repository before using this script, so you can go back if it's failing.
+The script was only tested on a single repository.
+Feedback would be great.
+It is also recommended, to make yourself familiar with rewriting history in git and understanding the `git filter-branch` command at least partly, before you use it.
+
+
+## EMA diffing
+
+Relevant files:
+
+- `ema-textconv.sh`
+- `config.sh`
+- `.gitattributes`
+
+The `config.sh` file sets up the diff command.
+
+You can use it by typing:
+
+```
+git diff some-file.ema
+```
+
+This script is at a very very beginning stage and if you have ideas to improve the diffing of `*.ema` files, your feedback would be great.
+
+
+## PDF diffing
+
+Relevant files:
+
+- `pdf-difftool.sh`
+- `config.sh`
+- `.gitattributes`
+- `tests/diff-pdf/*`
+
+The `config.sh` file sets up the diff command.
+
+```
+git diff some-file.pdf
+```
+
+
+## git shortcuts
+
+Relevant files:
+
+- `fetchPrune.sh`
+- `.gitignore`
+
+
+## GitLab integration
+
+Relevant files:
+
+- `.gitlab/*`
+
+
+This folder contains some example templates you can use in GitLab to create milestones and issues.
 
 
 ### Prerequisites
