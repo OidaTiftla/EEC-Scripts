@@ -58,6 +58,31 @@ Next, you execute the following script, to prepare the files, so you can merge t
 Then you go to the EEC, reload (close and reopen) the `*.eox` file and do a 3-way-merge.
 The instructions are printed to the console by the previous script.
 
+```
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+   PLEASE FIRST REOPEN THE model.eox
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+modelBase.eox   is from the common anchestor of both branches (xxxxxx)
+model.eox       is from the current branch (xxxxxx)
+modelSource.eox is from the merged branch (xxxxxx)
+
+
+afterwards do your merge in EEC
+
+1. reopen model.eox to update the EEC IDE
+2. File -> Import... -> EOX -> Next
+3. select mode: 'Three way merge with base EOX'
+4. Base:   modelBase.eox
+5. Source: modelSource.eox
+6. click 'Select All'
+7. click 'Finish'
+
+
+after merging everything in EEC call ./stage-merge-model.sh to finish merging (doing cleanup)
+```
+
 After merging the `*.eox` file in the EEC program, you execute the next script to stage all changes.
 
 ```
