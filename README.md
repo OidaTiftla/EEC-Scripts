@@ -5,6 +5,8 @@ This Repository should help all guys who start with git and need some helpful sc
 
 First presented on EEC-Forum 2018 by SPANGLER GMBH.
 
+*We as company SPANGLER GMBH would like to enhance the thought of an open and sharing experience on the EEC-Forum. Therefore we publish some code supporting our presentation on the EEC-Forum 2018. And thereby we hope others can benefit from this, and we hope we can improve the networking on the EEC-Forum.*
+
 This repository gives some starting code to use git with EEC.
 The intension is also to collect useful scripts to be used with git and EEC.
 For example visualize differences/changes in *.ema makros or handle merging of *.eox files.
