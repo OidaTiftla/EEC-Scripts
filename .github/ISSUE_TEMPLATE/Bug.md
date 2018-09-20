@@ -1,0 +1,21 @@
+# Bug Description
+
+## Steps to reproduce
+
+- ???
+
+## Faulty behaviour
+
+???
+
+## Expected behaviour
+
+???
+
+/label ~Prio???
+/label ~Bug
+/label ~ToDo
+/weight ???
+/estimate ???
+/assign???
+/due this Friday
